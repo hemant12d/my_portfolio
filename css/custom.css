@@ -106,13 +106,13 @@ nav {
 nav .logo {
   font-size: 25px;
   font-family: var(--logo-font);
-  color: #005f99;
+  color: #ff5b0d;
   text-decoration: underline;
   transition: color 0.4s ease-out;
   cursor: pointer;
 }
 nav .logo:hover {
-  color: var(--orange_color);
+  color: #ff5b0d;
 }
 
 .menu ul {
@@ -132,14 +132,7 @@ nav .logo:hover {
   font-size: 20px;
   font-family: var(--nav_link-font);
   letter-spacing: 1px;
-  color: #000;
-  transition: color 0.4s ease-out;
-}
-
-.menu ul li a:hover {
-  font-family: var(--nav_link-font);
-  letter-spacing: 1px;
-  color: var(--orange_color);
+  color: #ff5b0d;
 }
 
 .icon_swap i {
