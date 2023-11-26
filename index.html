@@ -177,8 +177,8 @@
         </section>
 
       <!-- !!!!!!!!!!!!!!!!!!!!! PROJECTS SECTION !!!!!!!!!!!!!!!!!!!!!! -->
-      <section class="projectsDisplay">
-        <div class="projectTitle text_center subTitle" id="allProjects"><p> My Projects </p></div>
+      <section class="section">
+        <h2 class="section__title mb-5">My Projects</h2>
         <div class="projectsOverview row mx-0">
           <div class="col-lg-6 mb-4 padding_md_close">
             <div class="projectFood project displayFlex">
@@ -232,85 +232,160 @@
           </div>
         </div>
       </section>
-      <!-- !!!!!!!!!!!!!!!!!!!!! Work Section !!!!!!!!!!!!!!!!!!!!!!!!!! -->
-      <section class="workSection row mb-3" id="education-Skills">
 
-          <div class="workSectionTitle text_center subTitle"><p> Services </p></div>
-          
-          <div class="col-lg-6 d-md-block d-none d-flex align-items-center justify-content-center">
-            <div class="clientImg">
-              <img src="img/5127314.jpg" alt="">
-            </div>
-          </div>
+        <section class="qualification__section">
+          <h2 class="section__title">Qualification</h2>
+          <span class="section__subtitle">My personal journey</span>
 
-          <div class="col-lg-6 mb-2 d-flex align-items-center">
-
-            <div class="work">
-              <div class="workTitle text_start width_full subSubTitle"><p>What can i do for my client ? </p> </div>
-              <div class="textDescription text_justify width_full">
-                <p>
-                 The requirements and needs of my clients are uppermost for me therefore I give my best to meet their expectations in time because I completely understand the value of their time and always try to serve my best services to them.
-              </p>
+          <div class="qualification__container container">
+            <div class="qualification__tabs">
+              <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
               </div>
-              <div class="webDevelopment mt-3 width_full d-flex align-items-center">
-                <div class="design"> <i class="fas fa-code"></i> </div>
-                <div class="workHeading ms-3"><p class="mb-0 pt-1">Web Development</p> </div>
+
+              <div class="qualification__button button--flex" data-target="#work">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
               </div>
             </div>
 
+            <div class="qualification__sections">
+              <!--==================== QUALIFICATION CONTENT 1 ====================-->
+              <div class="qualification__content qualification__active" data-content id="education">
+                <!--==================== QUALIFICATION 1 ====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">BCA </h3>
+                    <span class="qualification__subtitle">MDSU, Ajmer</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 - 2023
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2 ====================-->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">Backend Engineer</h3>
+                    <span class="qualification__subtitle">KNYO CLOUD, Pune</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2022 - 2023
+                    </div>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 3 ====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">High School</h3>
+                    <span class="qualification__subtitle">RBSE, Ajmer</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2018 - 2020
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 4 ====================-->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <!-- <span class="qualification__line"></span> -->
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">NodeJS Developer</h3>
+                    <span class="qualification__subtitle">INCI INFO, Ahmedabad</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2021
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION CONTENT 2 ====================-->
+              <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION 1 ====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Trainee Banking Assistant</h3>
+                    <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2017 - 2019
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2 ====================-->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">Banking Assistant</h3>
+                    <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2019 - 2020
+                    </div>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 3 ====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Data Analyst - Digital banking</h3>
+                    <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 - Present
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <!-- <span class="qualification__line"></span> -->
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
           </div>
+        </section>
 
-
-      </section>
-      <!-- !!!!!!!!!!!!!!!!!!! Education and Skill Section !!!!!!!!!!!!! -->
-      <section class="education_and_skills">
-        <div class="educationTitle subTitle text_center"><p>Education &amp; Skills</p></div>
-        <div class="row educationDetails">
-
-          <div class="col-lg-6 mb-1">
-            <div class="subSubTitle">
-              <p>Education-</p>
-            </div>
-            <!-- <div class="education_description textDescription">
-              <p>Seconday Education from RBSE, Ajmer in 2018 with <strong>79.80%.</strong></p>
-            </div>
-
-            <div class="education_description textDescription">
-              <p>High Seconday Education from RBSE, Ajmer in 2020 with <strong>81.80%.</strong></p>
-            </div> -->
-
-            <div class="education_description textDescription">
-              <p>
-                 <strong><abbr title="Bachelor of Computer Application" style="text-decoration: none;">BCA </abbr></strong> (2020 - 2023)</p>
-            </div>
-            
-
-          </div>
-          <div class="col-lg-6 mb-1">
-            <div class="subSubTitle">
-              <p>Skills-</p>
-            </div>
-            <div class="education_description textDescription">
-              <p><Strong>Languages: </Strong>JavaScript, Node.js</p>
-            </div>
-
-            <div class="education_description textDescription">
-              <p><strong>Database: </strong>MongoDB</p>
-            </div>
-            
-            <div class="education_description textDescription">
-              <p><strong>Hands on experience with tools: </strong> <br> Vs Code, NPM, Xampp</p>
-            </div>
-            <div class="education_description textDescription">
-              <p><strong>Framework: </strong>Express.js.</p>
-            </div>
-            <div class="education_description textDescription">
-              <p><strong>Hobby: </strong>Financial Education.</p>
-            </div>
-          </div>
-          
-        </div>
-      </section>
     </div>
   </main>
   
