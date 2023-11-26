@@ -533,7 +533,20 @@ img {
 }
 
 .skills__sql {
-  width: 50%;
+  width: 35%;
+}
+
+.skills__nosql {
+  width: 60%;
+}
+.skills__go {
+  width: 30%;
+}
+.skills__node {
+  width: 65%;
+}
+.skills__javscript {
+  width: 60%;
 }
 
 .skills__google {
