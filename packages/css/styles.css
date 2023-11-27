@@ -809,6 +809,11 @@ img {
   background-color: var(--first-color);
 }
 
+.noHover:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet {
