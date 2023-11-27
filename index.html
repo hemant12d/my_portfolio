@@ -177,63 +177,136 @@
         </section>
 
       <!-- !!!!!!!!!!!!!!!!!!!!! PROJECTS SECTION !!!!!!!!!!!!!!!!!!!!!! -->
-      <section class="section">
-        <h2 class="section__title mb-5">My Projects</h2>
-        <div class="projectsOverview row mx-0">
-          <div class="col-lg-6 mb-4 padding_md_close">
-            <div class="projectFood project displayFlex">
-              <div class="img"> <img src="img/pizza-3007395_640.jpg" class="img-fluid" alt="#"> </div>
-              <div class="overView">
-                <p class="projectHeading">Food Ordering</p>
-                <p class="projectDescription textDescription">
-                Food order site contains <strong>admin panel </strong>with login-logout functionality. This site displays the delicious foods category or foods for customers. Customers can order online.
-                </p>
-               <a href="https://drive.google.com/drive/folders/1WAEeuLPc2agR_FYGVETzAz0ed5_ZWex0?usp=sharing"> <button>Website</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4 padding_md_close">
-            <div class="projectFood project displayFlex">
-              <div class="img"> <img src="img/notebook-336634_640.jpg" class="img-fluid" alt="#"> </div>
-              <div class="overView">
-                <p class="projectHeading">Forum Website</p>
-                <p class="textDescription">
-                 The project includes <strong>login </strong>and <strong>logout</strong> functionality. Project contains list of popular graduation course, where
-                  users can read, write, and ask questions.
-                </p>
-                <a href="#"><button>Website</button></a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 mb-4 padding_md_close">
-            <div class="projectFood project displayFlex">
-              <div class="img"> <img src="img/portfolio.jpg" class="img-fluid" alt="#"> </div>
-              <div class="overView">
-                <p class="projectHeading">Portfolio site</p>
-                <p class="textDescription">
-                  I create a portfolio site for myself where I can show information about myself. I can also display my project work, education, skills, and contact information.                  
-                </p>
-               <a href="http://thehemantsoni.epizy.com/"><button>Website</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4 padding_md_close">
-            <div class="projectFood project displayFlex">
-              <div class="img"> <img src="img/imgdiscussion.jpg" class="img-fluid" alt="#"> </div>
-              <div class="overView">
-                <p class="projectHeading">Chat frontend</p>
-                <p class="projectDescription">
-                  In this project, I design a chat website where user can create own chatroom &amp; password. Using password &amp; room name other members can also arrive at the chat website &amp; chat.
-                </p>
-                <a href="http://chatappindia.epizy.com" target="_blank">  <button>Website Design</button> </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<!--        <section class="section">-->
+<!--        <h2 class="section__title mb-5">My Projects</h2>-->
+<!--        <div class="projectsOverview row mx-0">-->
+<!--          <div class="col-lg-6 mb-4 padding_md_close">-->
+<!--            <div class="projectFood project displayFlex">-->
+<!--              <div class="img"> <img src="img/pizza-3007395_640.jpg" class="img-fluid" alt="#"> </div>-->
+<!--              <div class="overView">-->
+<!--                <p class="projectHeading">Food Ordering</p>-->
+<!--                <p class="projectDescription textDescription">-->
+<!--                Food order site contains <strong>admin panel </strong>with login-logout functionality. This site displays the delicious foods category or foods for customers. Customers can order online.-->
+<!--                </p>-->
+<!--               <a href="https://drive.google.com/drive/folders/1WAEeuLPc2agR_FYGVETzAz0ed5_ZWex0?usp=sharing"> <button>Website</button></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-lg-6 mb-4 padding_md_close">-->
+<!--            <div class="projectFood project displayFlex">-->
+<!--              <div class="img"> <img src="img/notebook-336634_640.jpg" class="img-fluid" alt="#"> </div>-->
+<!--              <div class="overView">-->
+<!--                <p class="projectHeading">Forum Website</p>-->
+<!--                <p class="textDescription">-->
+<!--                 The project includes <strong>login </strong>and <strong>logout</strong> functionality. Project contains list of popular graduation course, where-->
+<!--                  users can read, write, and ask questions.-->
+<!--                </p>-->
+<!--                <a href="#"><button>Website</button></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          -->
+<!--          <div class="col-lg-6 mb-4 padding_md_close">-->
+<!--            <div class="projectFood project displayFlex">-->
+<!--              <div class="img"> <img src="img/portfolio.jpg" class="img-fluid" alt="#"> </div>-->
+<!--              <div class="overView">-->
+<!--                <p class="projectHeading">Portfolio site</p>-->
+<!--                <p class="textDescription">-->
+<!--                  I create a portfolio site for myself where I can show information about myself. I can also display my project work, education, skills, and contact information.                  -->
+<!--                </p>-->
+<!--               <a href="http://thehemantsoni.epizy.com/"><button>Website</button></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-lg-6 mb-4 padding_md_close">-->
+<!--            <div class="projectFood project displayFlex">-->
+<!--              <div class="img"> <img src="img/imgdiscussion.jpg" class="img-fluid" alt="#"> </div>-->
+<!--              <div class="overView">-->
+<!--                <p class="projectHeading">Chat frontend</p>-->
+<!--                <p class="projectDescription">-->
+<!--                  In this project, I design a chat website where user can create own chatroom &amp; password. Using password &amp; room name other members can also arrive at the chat website &amp; chat.-->
+<!--                </p>-->
+<!--                <a href="http://chatappindia.epizy.com" target="_blank">  <button>Website Design</button> </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
 
-        <section class="qualification__section">
+        <section class="portfolio section" id="portfolio">
+
+          <h2 class="section__title">Portfolio</h2>
+          <span class="section__subtitle">Most recent works</span>
+
+          <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+              <!--==================== PORTFOLIO 1 ====================-->
+
+              <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                  <h3 class="portfolio__title">Modern Dashboard</h3>
+                  <p class="portfolio__description">Data analitical dashboard adaptable to all devices,
+                    with ui components and animated interactions.</p>
+                  <a href="#" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PORTFOLIO 2 ====================-->
+
+              <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio3.PNG" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                  <h3 class="portfolio__title">E-Commerce website</h3>
+                  <p class="portfolio__description">Above Amazon clone is adaptable to all devices, with
+                    ui components and animated interactions.</p>
+                  <a href="#" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PORTFOLIO 3 ====================-->
+
+              <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio2.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                  <h3 class="portfolio__title">Brand Design</h3>
+                  <p class="portfolio__description">Tesla Clone is adaptable to all devices, with
+                    ui components and animated interactions.</p>
+                  <a href="#" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+
+          </div>
+
+        </section>
+
+        <section class="qualification__section section">
           <h2 class="section__title">Qualification</h2>
           <span class="section__subtitle">My personal journey</span>
 
@@ -365,77 +438,16 @@
             </div>
           </div>
         </section>
+        <section class="qualification__section section" style="margin-bottom: 0px">
+
+          <p style="text-align: center">
+            Copyright: &copy; All Rights Reserved.
+          </p>
+        </section>
+
 
     </div>
   </main>
-  
-  <!-- !!!!!!!!!!!!!!!!!!!! FOOTER START !!!!!!!!!!!!!!!!!! -->
-    <footer class="py-3" id="footer">
-      <div class="container">
-      <div class="row">
-
-        <div class="col-md-4 mb-3">
-            <div class="subSubTitle footerSubTitle">
-            <p><span>Contact</span></p>
-            </div>
-            
-            <div class="address textDescription">
-              <p>
-                <a href="#footer"><span class="iconFooter"><img src="img/footerIcon.png" alt=""></span>Bhilwara, Rajasthan</a>
-              </p>
-            </div>
-
-            <div class="mail textDescription">
-                <p>
-                  <a href="#footer"><span class="iconFooter"><img src="img/mail.png" alt=""></span>hsoni2962@gmail.com</a>
-                </p>
-            </div>
-
-            <div class="phone textDescription">
-              <p>
-                <a href="#footer"><span class="iconFooter"><img src="img/smartphone-1132677_640.png" alt=""></span>+91 8529363446</a>
-              </p>
-            </div>
-
-            <div class="whatsapp textDescription">
-              <p>
-                <a href="#footer"><span class="iconFooter"><img src="img/whatsapp.png" alt="whatsApp"></span>+91 8529363446</a>
-              </p>
-            </div>
-            
-        </div>
-        
-        <div class="col-md-4 mb-3">
-          <div class="subSubTitle footerSubTitle"><p><span>Suggestions</span></p></div>
-          <div class="textDescription text_justify">           
-            <p> This website is a practice project. If you have suggestions and improvement ideas please suggest them to me on my social media accounts. <br> Improvement Suggestions are most welcome!
-            </p>
-          </div>
-          <div class="socialIcons">
-            <a href="https://www.facebook.com/profile.php?id=100026735192769"><span class="iconFooter"><img src="img/facebook-2429746_640.png" alt="facebook"></span></a>
-            
-            <a href="https://www.instagram.com/hemant_kumar_soni_/"><span class="iconFooter"><img src="img/instagram-6338401_640.png" alt="instagram"></span></a>
-
-            <a href="https://twitter.com/HemantS70658388"><span class="iconFooter"><img src="img/twitter-2430933_640.png" alt="twitter"></span></a>
-          </div>
-          
-        </div>
-
-        <div class="col-md-4 mb-3">
-            <div class="subSubTitle footerSubTitle"><p><span>Developer</span></p></div>
-            <div class="textDescription">           
-              <p> Created and maintained By: <br>Hemant Soni <br>(BCA, 2nd Year Student) </p>
-            </div>
-            
-        </div>
-        <div class="mt-2 textDescription">
-          <p>
-            Copyright: &copy; All Rights Reserved.
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -444,6 +456,11 @@
 
   <!-- !!!!!!!!!!!!!!!!!! FontAwesome Icon import !!!!!!!!!!!!!!!!! -->
   <script src="https://kit.fontawesome.com/7f77965b4e.js" crossorigin="anonymous"></script>
+  <!--==================== SWIPER JS ====================-->
+  <script src="./packages/js/swiper-bundle.min.js"></script>
+
+  <!--==================== MAIN JS ====================-->
+  <script src="./packages/js/main.js"></script>
 </body>
 
 <script>
